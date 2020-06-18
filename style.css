@@ -1,0 +1,80 @@
+*{margin: 0;padding: 0;box-sizing: border-box;}
+body {
+    font-family: 'Oxygen';font-size: 18px;
+}
+.topnav{border-bottom: 1px solid #c0c0c0;height: 75px}
+.topnav li {list-style: none;padding: 12px 10px;float: left}
+.topnav li a{text-decoration: none;color: black;border-right: 1px solid black;padding: 0px 8px;margin-left: 15px}
+.topnav li .search{border: none}
+.topnav li a i{padding: 0px 8px;}
+.topnav ul{width: 200px;margin: auto;}
+.topnav img{width: 50px;height: 75px;float: left}
+
+.top-right{width: 400px;float: right;padding: 10px 0px}
+
+.top-right button{background: #0C2C65;color: white;padding: 14px 8px;border: none;outline: none;border-radius: 2px;}
+.mainnav {border-bottom: 1px solid  #c0c0c0}
+.mainnav li  {padding: 0px 10px;border-right: 1px solid  #c0c0c0;}
+.mainnav .last-item{border: none}
+.mainnav li a{color: black}
+.mainnav i{padding: 0px 8px;color:#0C2C65 }
+.slider{height: 100vh}
+.sliderbackground{background: #0C2C65 }
+.sliderbackground .description{padding: 200px 50px}
+.sliderbackground .description h3{color: white;text-align: center;}
+.sliderbackground  img{width: 100%;height: 600px;}
+.carddiv{margin: 50px 0px;}
+.carddiv h5{font-size: 24px;padding-top: 35px;font-weight: bold}
+.carddiv p{font-size: 14px;}
+#card-item{background:#a5d2dc;margin: auto;padding: 15px 16px;position: relative;}
+#card-item i{background:#0C2C65;padding: 15px 15px;border-radius: 50%;color: white ;position: absolute;top: -30px}
+.quality{height: 600px;margin-top: 200px}
+.quality h5{text-align: center;padding-top: 35px;color: white;font-weight: bold}
+.quality p{text-align: center;color: white;font-size: 12px;padding: 7px 0px}
+.quality img{width: 100%;height: 600px}
+.quality li{list-style: none;padding: 15px 0px}
+.quality li a{text-decoration: none;color:white;transform:skew(4deg)}
+.quality li i{margin: 7px 7px;justify-content: center; }
+#qulitydesdiv{padding: 0px 35px;background:#0C2C65 ;transform: translate(-10px);margin-top: 25px;transform:skew(-4deg);}
+.maincompany{position: relative;text-align: center;height: 400px;width: 100%;margin: 100px 0px;color: white}
+.company{background: url("images/typingbac.jpg");
+content: "";position: absolute;top: 0;bottom: 0;left: 0;right: 0; background-size: cover
+}
+.company .company-des{padding: 175px 0px;}
+.company .company-des h3{font-weight: bold}
+
+.work{background:#c0c0c0;padding: 50px 0px }
+.work h4{text-align: center;font-weight: bold;padding: 8px 0px}
+.work p{padding-bottom: 50px;font-size: 14px }
+.subwork-item{float: left;padding: 0;margin: 0}
+.work i{color:#0C2C65 }
+
+.consult{padding: 100px 0px}
+#consult-des{padding: 135px 0px}
+.consult img{width: 100%}
+.news img{width: 100%;height: 200px}
+
+
+
+
+
+.extracon{width: 100%;background-image: url("images/10069.jpg");height: 100vh;background-size: cover;background-repeat: no-repeat;}
+#contact{padding: 35px 0px}
+
+#subcon{background:rgba(0,0,0,.8);width: 70%;height: 80vh;margin: auto;margin: 50px auto;color: white;padding: 35px 0px}
+#subcon input{background:rgba(0,0,0,.0);border: none;outline: none;border-bottom: 1px solid #fff;color: white;margin: 10px 0px}
+#subcon textarea{background:rgba(0,0,0,.0);border: none;outline: none;border-bottom: 1px solid #fff;color: #fff;margin: 10px 0px}
+
+#subcon .namein{padding: 0px 25px}
+
+.footer {background: black;padding: 50px 0px}
+	.list-item li{list-style: none;padding: 20px 0px}
+	.list-item li a{text-decoration: none;color: white}
+.footer .list-item  i{padding: 35px 15px;color: white!important}
+.footer .list-item button{border: none;background: red;color: white}
+
+
+.client{background:#0C2C65;padding: 100px 0px }
+.client img{height: 200px}
+.client .card{transition:all .5s ease}
+.client .card:hover{box-shadow: 0 0 55px 0 rgba(0,0,0,.4);transform: scale(1.05);}
