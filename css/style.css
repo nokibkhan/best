@@ -1,0 +1,616 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+/* Loader */
+
+
+
+
+
+
+
+
+/* ANIMATED X */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all 0.4s;
+    font-family: -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Helvetica,
+    Arial,
+    sans-serif,
+    "Apple Color Emoji",
+    "Segoe UI Emoji",
+    "Segoe UI Symbol";
+}
+
+.container{
+
+}
+.new{
+    width: 100%;
+    text-align: center;
+
+}
+/* Navbar section */
+
+.nav{
+    width: 100%;
+    height: 160px;
+
+    line-height: 65px;
+    text-align: center;
+    background-color:black;
+}
+
+.nav div.logo{
+    width: 61px;
+    height: 80px;
+    position: absolute;
+    margin: 35px 10px;
+    padding-left: 18px;
+}
+
+.nav div.logo a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.8em;
+    text-transform: uppercase;
+}
+
+.nav div.logo a:hover {
+    color: #c0c0c0;
+}
+
+.nav div.main_list{
+    width: 600px;
+    height: 65px;
+    float: right;
+}
+
+.nav div.main_list ul{
+    width:100%;
+
+    display: flex;
+    list-style: none;
+    z-index: 1;
+    position: relative;
+}
+
+.nav div.main_list ul li{
+    width: 120px;
+    height: 105px;
+     padding: 25px 0px;
+}
+
+.nav div.main_list ul li a{
+    text-decoration: none;
+  color: #a5a5a5;
+    line-height: 105px;
+    text-transform: uppercase;
+    font-size: 28px;
+    font-family: 'Lora', serif;
+    font-weight:bold;
+font-family: 'PT Sans', sans-serif;
+}
+
+.nav div.main_list ul li a:hover{
+    color: white;
+}
+
+.nav div.media_button {
+    width: 35px;
+    height: 0.1px;
+    background-color: transparent;
+    position: absolute;
+    right: 35px;
+    top: 60px;
+    display: none;
+
+}
+ .cart i{
+float: right;
+margin-right: 100px;
+ color:grey;
+}
+.nav div.media_button button.main_media_button {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;;
+    outline: 0;
+    border: none;
+    cursor: pointer;
+}
+
+.nav div.media_button button.main_media_button span{
+    width: 90%;
+    height: 2px;
+    display: block;
+   background:grey;
+    margin-bottom: 10px;
+}
+
+
+
+.nav div.media_button button.active span:nth-of-type(1) {
+    transform: rotate3d(0, 0, 1, 45deg);
+    position: absolute;
+    margin: 0;
+}
+
+.nav div.media_button button.active span:nth-of-type(2) {
+    display: none;
+}
+
+.nav div.media_button button.active span:nth-of-type(3) {
+    transform: rotate3d(0, 0, 1, -45deg);
+    position: absolute;
+    margin: 0;
+}
+
+    .container{
+      
+    }
+    
+    .nav div.logo{
+        margin-left: 15px;
+    }
+    
+    .nav div.main_list{
+        width: 100%;
+        margin-top: 65px;
+        height: 0px;
+        overflow: hidden;
+    }
+    
+    .nav div.show_list{
+        height: 100vh;
+    }
+    
+    .nav div.main_list ul{
+        flex-direction: column;
+        width: 100%;
+        height: 100vh;
+        top: 80px;
+        right: 0;
+        left: 0;
+     
+        background: black;
+        opacity: 0.9;
+    }
+    
+    .nav div.main_list ul li{
+        width: 100%;
+        height: 40px;
+       
+    }
+    
+    .nav div.main_list ul li a{
+      text-align: center;
+        line-height: 40px;
+        width: 100%;
+        height: 40px;
+        display: table;
+    }
+    
+    .nav div.media_button{
+        display: block;
+    }
+
+
+
+/* Medai qurey section */
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    
+    .container{
+        margin: 0;
+    }
+    
+}
+
+@media screen and (max-width:768px) {
+    
+   
+    
+    .nav div.logo{
+        margin-left: 15px;
+    }
+    
+    .nav div.main_list{
+        width: 100%;
+        margin-top: 65px;
+        height: 0px;
+        overflow: hidden;
+    }
+    
+    .nav div.show_list{
+      height: 100vh;
+    }
+    
+    .nav div.main_list ul{
+        flex-direction: column;
+        width: 100%;
+        height: 100vh;
+        top: 80px;
+        right: 0;
+        left: 0;
+    }
+    
+    .nav div.main_list ul li{
+ 
+        
+    }
+    
+    .nav div.main_list ul li a{
+ 
+    }
+    
+    .nav div.media_button{
+        display: block;
+    }
+/* navbar end*/
+
+
+/*  section 1 header start*/
+.header{
+   z-index: -1!important; 
+}
+
+.header-desc{
+   
+    padding-left: 15%;
+  }
+
+}
+
+.header-inner{
+    width: 100%;
+    overflow: hidden;
+    background: black;
+    
+}
+
+.header-desc{
+    position: relative;
+    background: black;
+    padding: 150px 0px;
+    padding-left: 28%;
+}
+.header-desc h4{
+    color: rgb(214,214,214);
+    font-size: 14px;
+    line-height: 1.5;
+    font-family: 'Work Sans';
+    font-weight: 500;
+    letter-spacing: 0.09em;
+    font-style: normal;
+    padding: 35px 0px;
+
+}
+.header-desc h1{
+    font-size: 1em;
+    color: rgb(255,255,255);
+    font-size: 95px;
+    line-height: 1.3;
+    font-family: 'Bebas Neue', cursive;
+}
+.header-desc p{
+    font-size: 19px;
+    font-family: 'Lora', serif;
+    color: #d6d6d6;
+    padding-top: 25px;
+}
+.header-inner img{
+    width: 100%;
+   
+}
+.header-inner .btn{
+        border: 3px solid green;
+    padding: 2px 15px;
+    letter-spacing: 0.09em;
+    transition: all .2s;
+    background: rgba(255,255,255,0);
+    color: white;
+    font-family: 'Work Sans';
+    padding: 13px 29px;
+    line-height: 17px;
+    font-size: 13px;
+    margin: 25px 0px;
+
+}
+/*  section 1 header end*/
+
+/*  section 2 advertise start*/
+.advertise{
+    padding: 100px 0px;
+}
+.advertise h1{
+    text-align: center;
+    font-size: 31px;
+    line-height: 1.5;
+    font-family: 'Bebas Neue', cursive;
+    padding: 25px 0px;
+}
+.advertise p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+
+font-family: 'Lora', serif;
+color: #030303;
+font-size: 19px;
+text-align: center;
+}
+
+.advertise strong{
+    color: #030303;
+    line-height: 1.75;
+}
+.advertise img{
+    width: 100%;
+    padding-top: 50px ;
+}
+/*  section 2 advertise end*/
+
+/*  section 3 product/wurum start*/
+.product-inner h1{
+       text-align: center;
+    font-size: 46px;
+    line-height: 1.5;
+    font-family: 'Bebas Neue', cursive;
+    
+}
+
+.Warum{
+    text-align: center;
+}
+.Warum .card-title{
+    text-align:center; 
+    font-size:31px; 
+    color: #030303;
+    font-family: 'Bebas Neue', cursive;
+  
+   
+}
+.Warum img {
+width: 150px;
+height: 150px;
+margin: auto;
+
+}            
+.Warum .btn{
+    border: 3px solid green;
+    padding: 2px 15px;
+    letter-spacing: 0.09em;
+    transition: all .2s;
+    background: rgba(255,255,255,0);
+    color: #030303;
+    font-family: 'Work Sans';
+    padding: 13px 29px;
+    line-height: 17px;
+    font-size: 13px;
+    margin: 25px 0px;
+
+}
+/*  section 3 product/wurum end*/
+
+/*  section 4 smoothies start*/
+.smoothies{
+    
+text-align: center;
+}
+.smoothies h1{
+    text-align: center;
+    font-size: 46px;
+    line-height: 1.5;
+    font-family: 'Bebas Neue', cursive;
+    padding: 100px 0px;
+}
+.smoothies .card{
+    border: none!important;
+    position: relative;
+}
+.smoothies  img{
+    width: 100%;
+}
+
+.smoothies .card-title{
+    text-align:center; 
+    font-size:31px; 
+    color: #030303;
+    font-family: 'Bebas Neue', cursive;
+   
+}
+
+.smoothies p{
+  color: #030303;
+ font-size: 19px;
+ font-family: 'Lora', serif; 
+ line-height: 1.75;
+ 
+ 
+
+}
+
+.smoothies .btn{
+    border: 3px solid green;
+    padding: 2px 15px;
+    letter-spacing: 0.09em;
+    transition: all .2s;
+    background: rgba(255,255,255,0);
+    color: #030303;
+    font-family: 'Work Sans';
+    padding: 13px 29px;
+    line-height: 17px;
+    font-size: 13px;
+    margin: 25px 0px;
+
+}
+.smoothies img:hover{
+    transform:scale(1.05);
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+/*  section 4 smoothies end*/
+
+/*  section 5 das start*/
+.das {
+    text-align: center;
+}
+.das h1{
+     text-align: center;
+    font-size: 70px;
+    line-height: 1.5;
+    font-family: 'Bebas Neue', cursive;
+    padding: 100px 0px;   
+}
+.das .card{
+    border: none;
+    padding: 0px 8px;
+}
+
+.das .card-title{
+    text-align:center; 
+    font-size:31px; 
+    color: #030303;
+    font-family: 'Bebas Neue', cursive;
+   
+}
+.das p{
+        font-style: italic;
+        font-size: 19px;
+        font-family: 'Lora', serif; 
+        font-weight: 400;
+    letter-spacing: 0px;
+}
+.das img{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 30px 0 rgba(0, 0, 0, 0.19);  
+
+}
+/*  section 5 das end*/
+.footer{
+    margin-top: 200px;
+    position: relative;
+}
+.footer img{
+    width: 100%;
+}
+.footer .icon {
+    float: left;
+    position: absolute;
+    top: -50%;
+    left: 50%;
+    transform: translate(-40%,-100%);
+    display: flex;
+    top: 50%;
+
+}
+.footer-icon{
+padding-top: 47px;
+padding-left: 15px;
+}
+.footer-icon img{
+width: 32px;
+}
+.footer .icon .facebook{
+ padding: 11px 19px;
+    background: white;
+    margin: 0px 5px;
+    border-radius: 50%;
+}
+.footer .icon .youtube{
+ padding: 11px 16px;
+    background: white;
+    margin: 0px 5px;
+    border-radius: 50%;
+}
+.footer .icon .instragram{
+ padding: 11px 17px;
+    background: white;
+    margin: 0px 5px;
+    border-radius: 50%;
+}
+.footer .icon a i{
+    color: black;
+}
+.footer .icon a:hover{
+background: silver;
+}
+.inner-footer{
+  background: black;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+}
+.inner-footer p{
+ font-family: 'Lora', serif; 
+text-align: center;
+padding-top:50px; 
+font-size: 14px;
+color:#d6d6d6;
+
+}
+
+.overlay-header{
+position: absolute;
+width: 35px;
+height: 1px;
+background:silver;
+color: white;
+top: 200px;
+left: 80px;
+  animation-name: example;
+  animation-duration: 8s;
+}
+@keyframes example {
+  from {background-color: black;}
+  to {background-color:white;}
+}
+.smooth-overlay{
+ position: absolute;
+width: 100px;
+height: 1px;
+background:silver;
+bottom: 20px;
+left: 50%;
+right: 50%;
+transform: translate(-50%,-50%);
+   
+}
+
+@media screen and (max-width:992px) {
+  .header-desc{
+    padding-left: 10%;
+   } 
+.overlay-header{
+display: none;
+
+}
+.inner-footer{
+  background: black;
+  height: 100px;
+  display:inline-block;
+ 
+}
+.inner-footer a{
+    color: white;
+    text-decoration: none;
+}
+.footer-icon{
+display: none;
+}
+}
+
+@media screen and (max-width:1200px) {
+.header-desc{
+
+    padding-left: 8%;
+}
+}
